@@ -1,9 +1,7 @@
 import { useContext } from 'react';
-import { ThemeContext } from '../context/ThemeContext';
-import { LogoLight } from '../icons/LogoLight';
-import { LogoNight } from '../icons/LogoNight';
-
-
+import { ThemeContext } from '@/context/ThemeContext';
+import { LogoLight } from '@/icons/LogoLight';
+import { LogoNight } from '@/icons/LogoNight';
 
 export const ThemeToggle = () => {
   const { darkMode, setDarkMode } = useContext(ThemeContext);

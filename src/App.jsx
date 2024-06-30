@@ -1,6 +1,6 @@
-import { ThemeProvider } from './context/ThemeContext';
-import { MemoryGame } from './components/MemoryGame';
-import { ThemeToggle } from './components/ThemeToggle';
+import { ThemeProvider } from '@/context/ThemeContext';
+import { MemoryGame } from '@/components/MemoryGame';
+import { ThemeToggle } from '@/components/ThemeToggle';
 
 const App = () => {
   return (

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import { generateCards } from '../utils';
-import { Card } from './Card';
+import { generateCards } from '@/utils';
+import { Card } from '@/components/Card';
 
 export const MemoryGame = () => {
   const [cards, setCards] = useState(generateCards());
